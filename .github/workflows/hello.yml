@@ -9,7 +9,7 @@ jobs:
   # Définition de la première action à réaliser
   premier-job:
     # On précise le système d'exploitation (runner)
-      run-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
     # On écrit ici les étapes de notre action
       steps:
